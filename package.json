@@ -1,0 +1,18 @@
+{
+  "name": "resin-globe",
+  "version": "0.0.1",
+  "description": "A globe to show Resineer's Flowdock contributions.",
+  "main": "index.coffee",
+  "scripts": {
+    "preinstall": "bash deps.sh",
+    "start": "coffee index.coffee"
+  },
+  "author": "Andrew Lucas",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "coffee-script": "^1.12.4",
+    "flowdock": "^0.9.0",
+    "pi-pins": "^1.0.2",
+    "resin-lint": "^1.4.0"
+  }
+}
