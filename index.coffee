@@ -43,6 +43,7 @@ class ResinGlobe
 				pin.value(false)
 
 findPin = process.env.FIND_PIN
+# findPin = '*'
 if(findPin?)
 	pinIdToPin = {}
 	for pin_id in [0...27]
